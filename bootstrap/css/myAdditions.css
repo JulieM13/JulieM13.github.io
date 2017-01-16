@@ -1,0 +1,91 @@
+.circle {
+	background: #443266;
+	border: 1px solid #443266;
+	-webkit-border-radius: 50em;
+    -moz-border-radius: 50em;
+    border-radius: 50em;
+    height: 200px;
+    width: 200px;
+}
+
+/* from TexasBoomerangs.org */
+.circle:hover {
+    filter: #443266;
+    -webkit-filter: #443266;
+    -moz-filter: #443266;
+    opacity: .5;
+}
+
+.mem {
+    margin: auto;
+    display: block;
+}
+
+.cut-out {
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
+    -moz-box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
+    box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
+}
+
+
+
+
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+.fa:hover {
+    color: #443266;
+}
+
+.fancybox {
+    font-size: 0.6em;
+    text-align: vertical;
+}
+
+.btn-theme:hover {
+    color: #F1F0FF;
+}
+
+#filter {
+    font-size: 0.6em;
+}
+
+.fancybox > h5 {
+    font-size: 1em;
+    margin-top: -50px;
+}
+
+#filter > a:hover, a:focus {
+    color: #F1F0FF;
+}
