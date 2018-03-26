@@ -1,6 +1,6 @@
 .circle {
-	background: #443266;
-	border: 1px solid #443266;
+	background: #3B8BEB;
+	border: 1px solid #3B8BEB;
 	-webkit-border-radius: 50em;
     -moz-border-radius: 50em;
     border-radius: 50em;
@@ -65,7 +65,7 @@
   }
 
 .fa:hover {
-    color: #443266;
+    color: #3B8BEB;
 }
 
 .fancybox {
@@ -88,4 +88,36 @@
 
 #filter > a:hover, a:focus {
     color: #F1F0FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+.modal {
+}
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+		margin: auto;
+		width: 100%;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
 }
